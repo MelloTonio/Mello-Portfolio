@@ -15,11 +15,11 @@ const Header = () => {
 
                 <Menu openMenu={openMenu}>
                     <ul className="nav__list">
-                        <li className="nav__item"><a href="#" className="nav__link" >Home</a></li>
-                        <li className="nav__item"><a href="#" className="nav__link" >About</a></li>
-                        <li className="nav__item"><a href="#" className="nav__link" >Skills</a></li>
-                        <li className="nav__item"><a href="#" className="nav__link" >Work</a></li>
-                        <li className="nav__item"><a href="#" className="nav__link" >Contact</a></li>
+                        <li className="nav__item"><a href="#home" className="nav__link" onClick={() => setOpenMenu(!openMenu)} >Home</a></li>
+                        <li className="nav__item"><a href="#about" className="nav__link" onClick={() => setOpenMenu(!openMenu)} >About</a></li>
+                        <li className="nav__item"><a href="#skills" className="nav__link" onClick={() => setOpenMenu(!openMenu)}  >Skills</a></li>
+                        <li className="nav__item"><a href="#projects" className="nav__link" onClick={() => setOpenMenu(!openMenu)}  >Work</a></li>
+                        <li className="nav__item"><a href="#contact" className="nav__link" onClick={() => setOpenMenu(!openMenu)} >Contact</a></li>
                     </ul>
                 </Menu>
 

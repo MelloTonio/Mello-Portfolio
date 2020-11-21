@@ -2,7 +2,7 @@ import react from 'react'
 
 const Work = () => {
     return (
-        <section className="work section">
+        <section className="work section" id="projects" >
             <h2 className="section-title">Projects</h2>
 
 
