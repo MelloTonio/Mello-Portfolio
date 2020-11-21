@@ -9,7 +9,7 @@ const Home = () => {
         <main className="l-main">
             <section className="home bd-grid" id="home">
                 <div className="home__data">
-                    <Fade top ><h1 className="home__title">Hi,<br />I'am <span className="home__title-color">Antônio</span><br />Back-end developer</h1></Fade>
+                    <Fade top ><h1 className="home__title">Hi,<br />I'am <span className="home__title-color">Antônio</span>,<br />Jr. Back-end developer</h1></Fade>
                     <Fade top><a href="x" className="button">Contact</a></Fade>
                 </div>
 
