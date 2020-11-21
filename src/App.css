@@ -111,8 +111,9 @@ img{
   margin-right: var(--mb-2);
 }
 .l-header{
-  width: 100%;
+  width: 95%;
   position: fixed;
+
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
