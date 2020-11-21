@@ -17,7 +17,7 @@ const About = () => {
 
                 <div>
                     <Fade top>
-                    <h2 className="about__subtitle">I'm Mello</h2>
+                    <h2 className="about__subtitle">I'm Antonio Mello Babo</h2>
                     <p className="about__text">I live in São Paulo, currently studying Computer Science at PUC-SP and learning back-end development in my free time</p>
                     </Fade>
                 </div>
