@@ -1,4 +1,4 @@
-import react from 'react'
+
 import Fade from 'react-reveal/Fade';
 
 const Skills = () => {

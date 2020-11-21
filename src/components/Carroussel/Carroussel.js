@@ -39,7 +39,7 @@ const SimpleSlider = () => {
               <>
                 <div>
                 <h3 style={{textAlign:'center'}}><a href={project.link}>{project.nome}</a></h3>
-                <div style={{display:'flex', justifyContent:'center'}}><img width="300" height="400"  src={project.fotos[0].Src}></img></div>
+                <div style={{display:'flex', justifyContent:'center'}}><img width="300" height="400" alt="project_img" src={project.fotos[0].Src}></img></div>
                 </div>
               </>
           )): 'nao' }

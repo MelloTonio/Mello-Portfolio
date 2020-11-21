@@ -1,4 +1,4 @@
-import react from 'react'
+
 import Fade from 'react-reveal/Fade';
 
 
@@ -12,7 +12,7 @@ const About = () => {
 
             <div className="about__container bd-grid">
                 <div className="about__img">
-                   <Fade top><img src={aboutImage} /></Fade>
+                   <Fade top><img alt="images" src={aboutImage} /></Fade>
                 </div>
 
                 <div>

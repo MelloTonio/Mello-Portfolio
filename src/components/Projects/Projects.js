@@ -1,11 +1,10 @@
-import react from 'react'
 
-import Fade from 'react-reveal/Fade';
 
 import SimpleSlider from '../Carroussel/Carroussel.js'
 
 
 const Work = () => {
+    
     return (
         <div>
         <section className="work section" id="projects" >

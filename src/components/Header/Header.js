@@ -11,7 +11,7 @@ const Header = () => {
         <header className="l-header">
             <nav className="nav bd-grid">
                 <div>
-                    <a href="#" className="nav__logo" >Mello | Portfolio</a>
+                    <a href="x" className="nav__logo" >Mello | Portfolio</a>
                 </div>
 
                 <Menu openMenu={openMenu}>
