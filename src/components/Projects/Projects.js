@@ -2,26 +2,24 @@ import react from 'react'
 
 import Fade from 'react-reveal/Fade';
 
+import SimpleSlider from '../Carroussel/Carroussel.js'
+
 
 const Work = () => {
     return (
+        <div>
         <section className="work section" id="projects" >
             <h2 className="section-title">Projects</h2>
-
-            <Fade top>
-            <div className="work__container bd-grid">
-                <div className="work__img">
-                    <img src="#" alt="#" />
-                </div>
-                <div className="work__img">
-                    <img src="#" alt="#" />
-                </div>
-                <div className="work__img">
-                    <img src="#" alt="#" />
+            <div className="zap">
+            <div className="Slider">
+                <div className="helper">
+                    < SimpleSlider/>
                 </div>
             </div>
-            </Fade>
+                            
+            </div>
         </section>
+        </div>
     )
 }
 

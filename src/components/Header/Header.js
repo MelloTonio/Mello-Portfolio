@@ -24,7 +24,7 @@ const Header = () => {
                     </ul>
                 </Menu>
 
-                <div className="nav_toggle" id="nav-toggle" onClick={() => setOpenMenu(!openMenu)}>
+                <div className="nav__toggle" id="nav-toggle" onClick={() => setOpenMenu(!openMenu)}>
                     <i className="bx bx-menu" ></i>
                 </div>
             </nav>

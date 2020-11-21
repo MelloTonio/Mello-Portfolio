@@ -4,7 +4,7 @@ import react from 'react'
 const Footer = () => {
     return (
         <footer className="footer">
-            <p className="footer__title">Mello</p>
+            <p className="footer__title">Mello | Portfolio</p>
 
             <div className="footer__social">
                 <a className="footer__icon"><i className="bx bxl-twitter"></i></a>
