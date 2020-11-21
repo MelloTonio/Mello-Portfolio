@@ -1,4 +1,4 @@
-import react from 'react';
+
 import Fade from 'react-reveal/Fade';
 
 
@@ -10,14 +10,14 @@ const Home = () => {
             <section className="home bd-grid" id="home">
                 <div className="home__data">
                     <Fade top ><h1 className="home__title">Hi,<br />I'am <span className="home__title-color">Mello</span><br />Back-end developer</h1></Fade>
-                    <Fade top><a href="#" className="button">Contact</a></Fade>
+                    <Fade top><a href="x" className="button">Contact</a></Fade>
                 </div>
 
                 <div className="home__social">
                 <Fade top>
-                    <a href="#" className="home__social-icon"><i className="bx bxl-linkedin"></i></a>
-                    <a href="#" className="home__social-icon"><i className="bx bxl-behance"></i></a>
-                    <a href="#" className="home__social-icon"><i className="bx bxl-github"></i></a>
+                    <a href="x" className="home__social-icon"><i className="bx bxl-linkedin"></i></a>
+                    <a href="x" className="home__social-icon"><i className="bx bxl-behance"></i></a>
+                    <a href="x" className="home__social-icon"><i className="bx bxl-github"></i></a>
                     </Fade>
                 </div>
 
